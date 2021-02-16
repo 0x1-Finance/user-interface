@@ -91,7 +91,6 @@ export default function App() {
             </Web3ReactManager>
             <Marginer />
           </BodyWrapper>
-          <Footer />  
         </AppWrapper>
       </HashRouter>
     </Suspense>

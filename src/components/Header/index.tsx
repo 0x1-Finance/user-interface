@@ -22,7 +22,7 @@ const Nav: React.FC = () => {
 	  <StyledAbsoluteLink href="/">Home</StyledAbsoluteLink>
       <StyledAbsoluteLink href="#/swap">Trade</StyledAbsoluteLink>
 	  <StyledAbsoluteLink href="#/pool">Pool</StyledAbsoluteLink>
-	  <StyledAbsoluteLink href="#/add">Add Liquidity</StyledAbsoluteLink>
+	  <StyledAbsoluteLink href="https://www.binance.org/en/bridge" target="_blank">Bridge</StyledAbsoluteLink>
       <StyledAbsoluteLink href="https://data.0x1.finance" target="_blank">Analytics</StyledAbsoluteLink>
     </StyledNav>
   )
