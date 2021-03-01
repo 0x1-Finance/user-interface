@@ -55,7 +55,7 @@ export function getEtherscanLink(chainId: ChainId, data: string, type: 'transact
 }
 
 export function getAnalysisLink(chainId: ChainId): string {
-  return `https://${ANALYSIS_PREFIXES[chainId] || ANALYSIS_PREFIXES[1]}data.0x1.finance`
+  return `https://${ANALYSIS_PREFIXES[chainId] || ANALYSIS_PREFIXES[1]}info.0x1.exchange`
 }
 
 // shorten the checksummed version of the input address to have 0x + 4 characters at start and end

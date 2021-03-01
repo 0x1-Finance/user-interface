@@ -52,7 +52,7 @@ export function colors(darkMode: boolean): Colors {
     bg2: darkMode ? '#F7F8FA' : '#F7F8FA',
     bg3: darkMode ? '#EDEEF2' : '#EDEEF2',
     bg4: darkMode ? '#CED0D9' : '#CED0D9',
-    bg5: darkMode ? '#888D9B' : '#888D9B',
+    bg5: darkMode ? '#0028FF' : '#0028FF',
 
     //specialty colors
     modalBG: darkMode ? 'rgba(0,0,0,0.3)' : 'rgba(0,0,0,0.3)',
@@ -211,10 +211,8 @@ html {
 
 body {
   min-height: 100vh;
-  background-position: 0 -30vh;
   background-repeat: no-repeat;
-  background: #bc4e9c;  /* fallback for old browsers */
-  background: url('https://0x1.finance/bg.jpg');
+  background-image: radial-gradient(100% 100%, rgba(35, 193, 83, 0.9) 0%, rgba(255, 255, 255, 0) 100%);
   background-size: cover;
 }
 `

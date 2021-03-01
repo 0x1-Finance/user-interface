@@ -84,9 +84,9 @@ const StyledMenu = styled.div`
   text-align: left;
   background-color: white;
   border-radius: 10px;
-  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
-  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
 `
 
 const MenuFlyout = styled.span`
@@ -249,14 +249,6 @@ export default function SettingsTab() {
                       }
                 }
               />
-            </RowBetween>
-			<RowBetween>
-              <RowFixed>
-                <TYPE.black fontWeight={400} fontSize={14} color={theme.text2}>
-                  {t('toggleDarkMode')}
-                </TYPE.black>
-              </RowFixed>
-              <Toggle isActive={darkMode} toggle={toggleDarkMode} />
             </RowBetween>
           </AutoColumn>
         </MenuFlyout>

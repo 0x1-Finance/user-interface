@@ -1,6 +1,6 @@
 {
-  "name": "@bscswap/interface",
-  "description": "BSCswap Interface",
+  "name": "@0x1Exchange/interface",
+  "description": "0x1 Exchange Interface",
   "homepage": ".",
   "private": true,
   "devDependencies": {

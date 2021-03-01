@@ -22,8 +22,8 @@ const Nav: React.FC = () => {
 	  <StyledAbsoluteLink href="/">Home</StyledAbsoluteLink>
       <StyledAbsoluteLink href="#/swap">Trade</StyledAbsoluteLink>
 	  <StyledAbsoluteLink href="#/pool">Pool</StyledAbsoluteLink>
-	  <StyledAbsoluteLink href="https://www.binance.org/en/bridge" target="_blank">Bridge</StyledAbsoluteLink>
-      <StyledAbsoluteLink href="https://data.0x1.finance" target="_blank">Analytics</StyledAbsoluteLink>
+	  <StyledAbsoluteLink href="https://farm.0x1.finance" target="_blank">Farm</StyledAbsoluteLink>
+      <StyledAbsoluteLink href="https://info.0x1.exchange" target="_blank">Analytics</StyledAbsoluteLink>
     </StyledNav>
   )
 }
@@ -31,8 +31,7 @@ const Nav: React.FC = () => {
 const StyledNav = styled.nav`
   align-items: center;
   display: flex;
-  font-size: 20px;
-  line-height: 45px;
+  line-height: 40px;
   font-weight: 500;
   @media (max-width: 600px) {
     display: none;
@@ -48,9 +47,9 @@ const StyledAbsoluteLink = styled.a`
   text-decoration: none;
   background-color: white;
   border-radius: 10px;
-  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
-  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
   @media (max-width: 400px) {
     padding-left: 10px;
     padding-right: 10px;
@@ -104,9 +103,9 @@ const AccountElement = styled.div<{ active: boolean }>`
   align-items: center;
   background-color: white;
   border-radius: 10px;
-  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
-  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
   white-space: nowrap;
   width: 100%;
 
@@ -128,9 +127,9 @@ const NetworkCard = styled(YellowCard)`
   padding: 8px 12px;
   background-color: white;
   border-radius: 10px;
-  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
-  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
 `
 
 const HeaderControls = styled.div`
