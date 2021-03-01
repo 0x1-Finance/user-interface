@@ -3,7 +3,7 @@ import { ChainId, JSBI, Percent, Token, WETH } from '@bscswap/sdk'
 
 import { injected, binanceinjected, walletconnect, walletlink } from '../connectors'
 
-export const ROUTER_ADDRESS = '0xd954551853F55deb4Ae31407c423e67B1621424A'
+export const ROUTER_ADDRESS = '0xBb496Ddf38d4c035Cb2D54d3A633f260B74B5fbe'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -104,14 +104,6 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     color: '#010101',
     primary: true
   },
-  BINANCE: {
-    connector: binanceinjected,
-    name: 'Binance Chain Wallet',
-    iconName: 'bnb.svg',
-    description: 'A Crypto Wallet for Binance Smart Chain',
-    href: null,
-    color: '#F9A825'
-  },
   METAMASK: {
     connector: injected,
     name: 'MetaMask',
@@ -119,6 +111,23 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     description: 'Easy-to-use browser extension.',
     href: null,
     color: '#E8831D'
+  },
+  WALLET_CONNECT: {
+    connector: walletconnect,
+    name: 'WalletConnect',
+    iconName: 'walletConnectIcon.svg',
+    description: 'Connect to Trust Wallet, Rainbow Wallet and more...',
+    href: null,
+    color: '#4196FC',
+    mobile: true
+  },
+  BINANCE: {
+    connector: binanceinjected,
+    name: 'Binance Chain Wallet',
+    iconName: 'bnb.svg',
+    description: 'A Crypto Wallet for Binance Smart Chain',
+    href: null,
+    color: '#F9A825'
   },
   TRUSTWALLET: {
     connector: injected,
